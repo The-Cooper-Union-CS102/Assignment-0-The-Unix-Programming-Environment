@@ -11,6 +11,19 @@ Create an executable bash script `solution.sh` that does the following:
 7. Print the contents of `myfile`
 8. Navigate up one directory so you're in `mydir`
 9. Copy `mydir2` and all of its contents to a directory called `mydir3`
-10. List all files and directories in the current directory alphabetically `mydir` (use `find` and `sort`)
+10. List everything in the current directory
+11. List all directories in the current directory, along with the files in
+those directories in reverse alphabetic order (use `find` and `sort`)
 
-Each instruction should be completed by exactly one command.
+Each instruction should be completed by exactly one line.
+
+Your output should look something like the following:
+
+```
+hello bash
+./mydir3/myfile
+./mydir3
+./mydir2/myfile
+./mydir2
+.
+```
