@@ -21,6 +21,7 @@ Your output should look something like the following:
 
 ```
 hello bash
+mydir2  mydir3
 ./mydir3/myfile
 ./mydir3
 ./mydir2/myfile
